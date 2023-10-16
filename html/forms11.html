@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMS EXAMPLE</title>
+</head>
+<body>
+  <!-- forms -->
+<form action="process.php" method="post" id="myForms">
+
+ <label for="stdname">STUDENT NAME:</label>
+ <input type="text" id="stdname" placeholder="SHIVAM SINGH" required><br><br>
+
+ <label for="fname">FATHER NAME:</label>
+ <input type="text" id="fname" placeholder="CAPITAL LETTERS" required><br><br>
+
+ <label for="Mname">MOTHER NAME:</label>
+ <input type="text" id="Mname" placeholder="CAPITAL LETTERS" required><br><br>
+
+ <!-- options select we give name attribute so it can classify the options belong to same class -->
+ <label for="gender">MALE:</label>
+ <input type="radio" name="gender1" id="gender">
+ <label for="gender">FEMALE:</label>
+ <input type="radio" name="gender1" id="gender">
+ <label for="gender">RATHER NOT TO SAY:</label>
+ <input type="radio" name="gender1" id="gender"><br><br>
+
+ <label for="course">COURSE:</label>
+ <select name="course" id="course">
+ <option value="BTECH">BTECH</option>
+ <option value="BPHARMA">BPHARMA</option>
+ <option value="BCA">BCA</option>
+ <option value="MTECH">MTECH</option>
+</select><br><br>
+
+<label for="gmail">gmail</label>
+<input type="email" name="gmail" id="gmail" required><br><br>
+
+<input type="submit" name="submit" id="submitButton" value="submit form">
+</form>
+</body>
+</html>
