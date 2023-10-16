@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EMMETS</title>
+</head>
+<body>
+  <!-- if we want a tag with its children tags means tag in tag we do (div>p>ul>li)  -->
+  <div>
+    <p>
+      <ul>
+        <li>coffee</li>
+      </ul>
+    </p>
+  </div>
+  <!-- parent child exmaples means tag in tag -->
+
+  <!-- if we want a tag with its children tags means tag in tag we do (div>p>ul>li*5) this will generate 5 lists in tag -->
+  <div>
+    <p>
+      <ol type="A">
+        <li>Phai</li>
+        <li>coffee</li>
+        <li>neembu pani</li>
+        <li>shikanji</li>
+        <li>orange juice</li>
+      </ol>
+    </p>
+  </div>
+
+  <!-- div.div1>p.para1>ul#unoderedlist>li*5 -->
+  <div class="div1">
+    <p class="para1">
+      <ul id="unoderedlist" type="square">
+        <li><h1>MY FAMILY</h1></li>
+        <li>SUNIL SINGH</li>
+        <li>KIRAN SINGH</li>
+        <li>MANSI SINGH</li>
+        <li>SHIVAM SINGH</li>
+      </ul>
+    </p>
+  </div>
+
+  <!-- brotherhood or sibling-->
+  <!-- p+p+p -->
+  <p></p>
+  <p></p>
+  <p></p>
+  <!-- div>p*5 or div>p+p+p+p+p -->
+  <div>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </div>
+
+  <!-- grouping -> div>(nav>li*5)>section -->
+   <div>
+    <nav>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </nav>
+    <section></section>
+  </div>
+</body>
+</html>
