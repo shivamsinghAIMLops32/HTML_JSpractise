@@ -57,21 +57,3 @@ const isPalindrome = (str) =>{
 
 const testString = "A man, a plan, a dam, banana!";
 console.log(isPalindrome(testString));
-
-
-// find element in array
-
-const findEle = (arr,target) => {
-  for(let i = 0; i< arr.length; i++){
-    if(arr[i]=== target){
-      return i;
-    }
-  }
-  return -1;
-};
-
-let arr =[8,0,29,9,10,45,3];
-console.log(findEle(arr,9));
-
-
-
