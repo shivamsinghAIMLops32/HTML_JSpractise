@@ -73,5 +73,6 @@ const findEle = (arr,target) => {
 let arr =[8,0,29,9,10,45,3];
 console.log(findEle(arr,9));
 
+console.log(typeof findEle());
 
 
